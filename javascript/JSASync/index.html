@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="callback.js"></script>
+    <script src="builtInAsync.js"></script>
+    <script src="promises.js"></script>
+    <script src="./async-await.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section
+      style="
+        background-color: #aaa;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1rem;
+      "
+    >
+      <h2>Callback function</h2>
+      <div>
+        The refreshed second <span id="callbacksecond"></span> is an
+        <span id="callbacktext"></span> number.
+      </div>
+
+      <h2>Built in Async function</h2>
+      <div>The current second is <span id="lblsecond"></span></div>
+
+      <h2>Promise Function</h2>
+      <div>
+        Simulate a promise function giving a
+        <span id="promiseSuccessOrFailure"></span> based on refreshed second
+        being: <span id="promisesecond"></span>
+      </div>
+      <h2>Async Function</h2>
+      <div>
+        Simulate an async function result in
+        <span id="asyncSuccessOrFailure"></span> based on refreshed second.
+        Response Message: <span id="asyncMessage"></span>
+      </div>
+    </section>
+  </body>
+</html>

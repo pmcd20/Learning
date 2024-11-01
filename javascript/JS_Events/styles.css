@@ -1,0 +1,15 @@
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: aliceblue;
+  margin: 5px;
+}
+
+#box2 {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: aliceblue;
+}
